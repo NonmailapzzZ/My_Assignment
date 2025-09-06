@@ -1,2 +1,2 @@
-# AI_by_Pradya
-coruse to make AI by Arjann.Pradya
+# My Assignment
+these are my work to submit my teacher homework.
