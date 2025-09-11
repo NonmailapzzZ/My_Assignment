@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 #include a parameter
-img_path = r'C:\Users\ASUS\Desktop\AI_by_Pradya\Assignment#2\BlueScreenJump.jpg'
+img_path = r' ~IMAGE PATH '
 upper_blue = 110
 lower_blue = 96.7
 
@@ -14,11 +14,7 @@ man = image.copy()
 
 # blurred image by using guassianblur
 blur = cv2.GaussianBlur(image,(5,5),0)
-# create gray image and do canny edge
-gray = cv2.cvtColor(blur, cv2.COLOR_BGR2GRAY)
-edge = cv2.Canny(gray, 140, 210)
 
-# con, _ = cv2.findContours(edge, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 # convert from RGB to HSV
 blur = cv2.cvtColor(blur, cv2.COLOR_BGR2LAB)
 
